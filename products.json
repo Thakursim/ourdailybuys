@@ -1,0 +1,64 @@
+{
+  "site": {
+    "name": "Our Daily Buys",
+    "currency": "INR",
+    "affiliateDisclaimer": "Some links may be affiliate links. If you buy through them, we may earn a small commission at no extra cost to you."
+  },
+  "products": [
+    {
+      "id": "baby-bottle-01",
+      "title": "Baby Bottle (Example)",
+      "category": "Baby",
+      "whyWeBoughtIt": "We needed an easy-to-clean bottle for water. Look for BPA-free and easy grip.",
+      "rating": 4.4,
+      "boughtMonth": "2026-01",
+      "affiliateUrl": "https://www.amazon.in/?tag=YOURTAG-21"
+    },
+    {
+      "id": "diapers-01",
+      "title": "Diapers (Example)",
+      "category": "Baby",
+      "whyWeBoughtIt": "We prefer soft waistband + leak protection for overnight use.",
+      "rating": 4.2,
+      "boughtMonth": "2026-01",
+      "affiliateUrl": "https://www.amazon.in/?tag=YOURTAG-21"
+    },
+    {
+      "id": "usb-c-hub-01",
+      "title": "5-in-1 USB-C Hub (Example)",
+      "category": "Electronics",
+      "whyWeBoughtIt": "Laptop ports are limited. This helps connect HDMI + USB devices quickly.",
+      "rating": 4.3,
+      "boughtMonth": "2026-01",
+      "affiliateUrl": "https://www.amazon.in/?tag=YOURTAG-21"
+    },
+    {
+      "id": "curd-maker-01",
+      "title": "Curd Maker (Example)",
+      "category": "Home",
+      "whyWeBoughtIt": "Consistent curd setting without checking repeatedly — especially helpful in different seasons.",
+      "rating": 4.1,
+      "boughtMonth": "2026-01",
+      "affiliateUrl": "https://www.amazon.in/?tag=YOURTAG-21"
+    },
+    {
+      "id": "trimmer-01",
+      "title": "Men’s Trimmer (Example)",
+      "category": "Personal Care",
+      "whyWeBoughtIt": "Quick grooming at home. Prefer fast charging + multiple length settings.",
+      "rating": 4.5,
+      "boughtMonth": "2026-01",
+      "affiliateUrl": "https://www.amazon.in/?tag=YOURTAG-21"
+    },
+    {
+      "id": "wallet-01",
+      "title": "Men’s Wallet (Example)",
+      "category": "Lifestyle",
+      "whyWeBoughtIt": "Minimal wallet that fits cards and cash without becoming bulky.",
+      "rating": 4.0,
+      "boughtMonth": "2026-01",
+      "affiliateUrl": "https://www.amazon.in/?tag=YOURTAG-21"
+    }
+  ]
+}
+

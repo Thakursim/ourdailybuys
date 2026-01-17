@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Real family picks — products we actually buy and use. Curated recommendations with honest notes." />
+  <title>Our Daily Buys</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Optional font (looks logo-like). Remove if you want pure system fonts. -->
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand" aria-label="Site brand">
+        <div class="brand-mark" aria-hidden="true">ODB</div>
+        <div class="brand-text">
+          <div class="brand-name">Our Daily Buys</div>
+          <div class="brand-tagline">Products we actually buy & use</div>
+        </div>
+      </div>
+
+      <nav class="nav" aria-label="Primary">
+        <a href="#picks" class="nav-link">Picks</a>
+        <a href="#about" class="nav-link">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <h1>Simple, honest recommendations — from our home to yours.</h1>
+          <p>
+            We add products we genuinely buy: baby essentials, home gadgets, personal care, and more.
+            No fluff — just what worked for us.
+          </p>
+          <div class="hero-badges" aria-label="Highlights">
+            <span class="badge">Mobile-friendly</span>
+            <span class="badge">Fast & simple</span>
+            <span class="badge">One JSON file</span>
+          </div>
+        </div>
+
+        <div class="hero-card" role="note" aria-label="Affiliate disclosure">
+          <h2>Affiliate disclosure</h2>
+          <p>
+            Some links may be affiliate links. If you buy through them, we may earn a small commission
+            at no extra cost to you. We only recommend things we actually use.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="picks" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Our Picks</h2>
+          <p class="muted">Search or filter. New recommendations added whenever we buy something useful.</p>
+        </div>
+
+        <div class="controls" role="region" aria-label="Search and filters">
+          <label class="field">
+            <span class="field-label">Search</span>
+            <input id="searchInput" type="search" placeholder="Try: diaper, AC, trimmer..." autocomplete="off" />
+          </label>
+
+          <label class="field">
+            <span class="field-label">Category</span>
+            <select id="categorySelect">
+              <option value="all">All</option>
+            </select>
+          </label>
+
+          <label class="field">
+            <span class="field-label">Sort</span>
+            <select id="sortSelect">
+              <option value="recent">Most recent</option>
+              <option value="rating">Highest rating</option>
+              <option value="name">Name (A–Z)</option>
+            </select>
+          </label>
+        </div>
+
+        <div id="status" class="status" aria-live="polite"></div>
+
+        <div id="grid" class="grid" aria-label="Product list"></div>
+
+        <div class="note">
+          <strong>Tip:</strong> Start by adding 10–20 products. Keep notes short: “why we bought it” + “who it’s for”.
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section alt">
+      <div class="container about">
+        <div>
+          <h2>About Us</h2>
+          <p>
+            We are a regular Indian family sharing products we genuinely buy and use in our daily life.  
+            Everything you see here is something that has already come into our home — for our baby, kitchen, gadgets, or personal use.
+          </p>
+
+          <p>
+            This website is not a professional review portal. It is simply a collection of honest, practical recommendations based on real experience.
+          </p>
+
+          <ul class="checklist">
+            <li>Only products we actually purchase</li>
+            <li>No paid reviews</li>
+            <li>Simple and honest notes</li>
+            <li>Updated regularly with new buys</li>
+          </ul>
+        </div>
+
+        <div class="about-card">
+          <h3>How We Recommend</h3>
+          <ul>
+            <li>We try the product ourselves</li>
+            <li>We share why we bought it</li>
+            <li>We mention what we liked</li>
+            <li>We avoid over-hyped items</li>
+          </ul>
+
+          <p style="margin-top:10px;">
+            Our goal is to help other families make quick, confident buying decisions without spending hours researching.
+          </p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-left">
+        <div class="footer-brand">Our Daily Buys</div>
+        <div class="muted">© <span id="year"></span> — Built with Love</div>
+      </div>
+      <div class="footer-right">
+        <a class="footer-link" href="#picks">Back to Picks</a>
+        <span class="dot" aria-hidden="true">•</span>
+        <a class="footer-link" href="#about">About</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
+
