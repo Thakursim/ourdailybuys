@@ -12,7 +12,7 @@
       "whyWeBoughtIt": "We needed an easy-to-clean bottle for water. Look for BPA-free and easy grip.",
       "rating": 4.4,
       "boughtMonth": "2026-01",
-      "affiliateUrl": "https://www.amazon.in/?tag=YOURTAG-21"
+      "affiliateUrl": "https://www.amazon.in/dp/B08DL18QCV?tag=simran20090d-21"
     },
     {
       "id": "diapers-01",
@@ -21,7 +21,7 @@
       "whyWeBoughtIt": "We prefer soft waistband + leak protection for overnight use.",
       "rating": 4.2,
       "boughtMonth": "2026-01",
-      "affiliateUrl": "https://www.amazon.in/?tag=YOURTAG-21"
+      "affiliateUrl": "https://www.amazon.in/dp/B09MVWNLCF?tag=simran20090d-21"
     },
     {
       "id": "usb-c-hub-01",
@@ -30,7 +30,7 @@
       "whyWeBoughtIt": "Laptop ports are limited. This helps connect HDMI + USB devices quickly.",
       "rating": 4.3,
       "boughtMonth": "2026-01",
-      "affiliateUrl": "https://www.amazon.in/?tag=YOURTAG-21"
+      "affiliateUrl": "https://www.amazon.in/dp/B0CHBHYLLR?tag=simran20090d-21"
     },
     {
       "id": "curd-maker-01",
@@ -39,26 +39,25 @@
       "whyWeBoughtIt": "Consistent curd setting without checking repeatedly — especially helpful in different seasons.",
       "rating": 4.1,
       "boughtMonth": "2026-01",
-      "affiliateUrl": "https://www.amazon.in/?tag=YOURTAG-21"
+      "affiliateUrl": "https://www.amazon.in/dp/B09G2VTHQM?tag=simran20090d-21"
     },
     {
       "id": "trimmer-01",
-      "title": "Men’s Trimmer (Example)",
+      "title": "Men's Trimmer (Example)",
       "category": "Personal Care",
       "whyWeBoughtIt": "Quick grooming at home. Prefer fast charging + multiple length settings.",
       "rating": 4.5,
       "boughtMonth": "2026-01",
-      "affiliateUrl": "https://www.amazon.in/?tag=YOURTAG-21"
+      "affiliateUrl": "https://www.amazon.in/dp/B0C7VYN5PV?tag=simran20090d-21"
     },
     {
       "id": "wallet-01",
-      "title": "Men’s Wallet (Example)",
+      "title": "Men's Wallet (Example)",
       "category": "Lifestyle",
       "whyWeBoughtIt": "Minimal wallet that fits cards and cash without becoming bulky.",
       "rating": 4.0,
       "boughtMonth": "2026-01",
-      "affiliateUrl": "https://www.amazon.in/?tag=YOURTAG-21"
+      "affiliateUrl": "https://www.amazon.in/dp/B08PKH9JPQ?tag=simran20090d-21"
     }
   ]
 }
-
